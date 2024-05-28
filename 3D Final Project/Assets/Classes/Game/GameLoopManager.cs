@@ -104,12 +104,6 @@ public class GameLoopManager : MonoBehaviour
 
             //Tick Towers
 
-            foreach(TowerBehaviour tower in TowersInGame)
-            {
-                tower.Target = TowerTargeting.GetTarget(tower, TowerTargeting.TargetType.First);
-                tower.Tick();
-            }
-
             //Apply Effects
 
             //Damage Enemies
