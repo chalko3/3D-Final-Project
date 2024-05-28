@@ -4,15 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ground
+  - CanPlace
+  - CantPlace
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Towers
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
